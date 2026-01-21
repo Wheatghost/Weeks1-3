@@ -288,6 +288,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 1645340318}
   col: {r: 0.8396226, g: 0.122774996, b: 0.122774996, a: 1}
+  fish:
+  - {fileID: 4960192699990492036, guid: fdf1a6fd01df95a479356b0171a82d91, type: 3}
+  - {fileID: -4004236341550934336, guid: f098fc9efb824024baf1dd3da7c61bdb, type: 3}
+  - {fileID: -5478135496998406266, guid: d88f83d41ea339343b5373d787e8052f, type: 3}
+  randomNumber: 0
 --- !u!212 &1645340318
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -332,7 +337,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3233afe4c448d4eb198cfb1ca54feb3b, type: 3}
+  m_Sprite: {fileID: 4960192699990492036, guid: fdf1a6fd01df95a479356b0171a82d91, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
