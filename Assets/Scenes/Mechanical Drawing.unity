@@ -2966,7 +2966,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfd45c2409adfc64fad34f45cdfe2d82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pos: {fileID: 0}
+  pos: {x: 0, y: 0}
 --- !u!1 &879757374
 GameObject:
   m_ObjectHideFlags: 0
@@ -5382,6 +5382,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1685039592}
   - component: {fileID: 1685039593}
+  - component: {fileID: 1685039594}
   m_Layer: 0
   m_Name: Clouds
   m_TagString: Untagged
@@ -5398,7 +5399,7 @@ Transform:
   m_GameObject: {fileID: 1685039591}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.371, y: 0.221, z: 0}
+  m_LocalPosition: {x: -1, y: 0.225, z: 0}
   m_LocalScale: {x: 0.0113719255, y: 0.02107903, z: 0.25}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -5461,6 +5462,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1685039594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685039591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f90bbea8ae379647a1a43edbb896540, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  start: {x: -20, y: 2}
+  end: {x: 20, y: 2}
 --- !u!1 &1738782364
 GameObject:
   m_ObjectHideFlags: 0
