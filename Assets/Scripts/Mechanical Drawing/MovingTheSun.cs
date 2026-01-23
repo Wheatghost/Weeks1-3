@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class MovingTheSun : MonoBehaviour
 {
-    public Vector3 pos;
+    public Vector2 pos;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -14,6 +14,8 @@ public class MovingTheSun : MonoBehaviour
     void Update()
     {
         pos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+        pos.y = 3f;
         transform.position = pos;
+        
     }
 }
