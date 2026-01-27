@@ -17,8 +17,10 @@ public class MovingClouds : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //clouds take 30 seconds to go across and then immediately start over
         t += Time.deltaTime/30;
         
+        //moves the clouds then checks time
         transform.position = Vector2.Lerp(start, end, t);
         if (t > 1)
         {

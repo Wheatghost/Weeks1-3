@@ -53,6 +53,7 @@ public class TideSwelling : MonoBehaviour
             swell *= -1;
         }
         transform.localScale = tide;
+        //checks if something is the bobber, and then moves it along a path
         if (bobber == 1)
         {
             transform.position = Vector2.Lerp(bobStart.position, bobEnd.position, curve.Evaluate(t));
